@@ -1,4 +1,8 @@
-.divcontainer {
+/*.divcontainer {
   display: flex;
   flex-direction: column;
+}
+*/
+p {
+  color: blue;
 }
