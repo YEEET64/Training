@@ -1,2 +1,4 @@
-var Zufall = Math.random(9);
-console.log(Zufall);
+console.log(getRandomInt(9));
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
