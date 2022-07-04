@@ -18,7 +18,8 @@ function hoeher(){
   neuZahl();
   if (Zufall > ZahlVorher) {
     document.getElementById("answer").innerHTML = "richtig";
-    document.getElementById("score").innerHTML = Score++;
+    Score++;
+    document.getElementById("score").innerHTML = Score;
   } else {
      document.getElementById("answer").innerHTML = "falsch";
      Score = 0;
@@ -29,7 +30,8 @@ function tiefer(){
   neuZahl();
   if (Zufall < ZahlVorher) {
     document.getElementById("answer").innerHTML = "richtig";
-    document.getElementById("score").innerHTML = Score++;
+    Score++;
+    document.getElementById("score").innerHTML = Score;
   } else {
      document.getElementById("answer").innerHTML = "falsch";
      Score = 0;
