@@ -4,6 +4,7 @@ function getRandomInt(max) {
 }
 var Zufall;
 var ZahlVorher;
+var Score = 0;
 function neuZahl() {
   ZahlVorher = Zufall;
   do {
@@ -17,15 +18,21 @@ function hoeher(){
   neuZahl();
   if (Zufall > ZahlVorher) {
     document.getElementById("answer").innerHTML = "richtig";
+    document.getElementById("score").innerHTML = Score++;
   } else {
      document.getElementById("answer").innerHTML = "falsch";
+     Score = 0;
+     document.getElementById("score").innerHTML = Score;
   }
 }
 function tiefer(){
   neuZahl();
   if (Zufall < ZahlVorher) {
     document.getElementById("answer").innerHTML = "richtig";
+    document.getElementById("score").innerHTML = Score++;
   } else {
      document.getElementById("answer").innerHTML = "falsch";
+     Score = 0;
+     document.getElementById("score").innerHTML = Score;
   }
 }
