@@ -14,4 +14,17 @@ function neuZahl() {
 
 function hoeher(){
   neuZahl();
+  if (Zufall > ZahlVorher) {
+    document.getElementById("answer").innerHTML = "richtig";
+  } else {
+     document.getElementById("answer").innerHTML = "falsch";
+  }
+}
+function tiefer(){
+  neuZahl();
+  if (Zufall < ZahlVorher) {
+    document.getElementById("answer").innerHTML = "richtig";
+  } else {
+     document.getElementById("answer").innerHTML = "falsch";
+  }
 }
