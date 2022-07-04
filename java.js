@@ -1,10 +1,10 @@
-Zufall();
+neuZahl();
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 var Zufall;
 var ZahlVorher;
-function Zufall() {
+function neuZahl() {
   ZahlVorher = Zufall;
   do {
     Zufall = getRandomInt(11)
@@ -13,5 +13,5 @@ function Zufall() {
 }
 
 function hoeher(){
-  Zufall();
+  neuZahl();
 }
