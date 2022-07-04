@@ -4,7 +4,10 @@
   justify-content: space-around;
   background-color: blue;
 }
-p {
-  font-size 20px;
+
+.div1 {
+  flex-direction: row;
+  justify-content: center;
 }
+
 
