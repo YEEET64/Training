@@ -13,4 +13,5 @@ function Zufall() {
 }
 
 function hoeher(){
+  Zufall();
 }
