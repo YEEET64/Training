@@ -3,5 +3,4 @@ function getRandomInt(max) {
 }
 var Zufall = getRandomInt(11);
 document.getElementById("number").innerHTML = Zufall;
-console.log(Zufall);
-console.log(getRandomInt(11));
+
