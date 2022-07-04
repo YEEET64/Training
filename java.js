@@ -9,7 +9,8 @@ function neuZahl() {
   do {
     Zufall = getRandomInt(11)
   } while (Zufall == ZahlVorher)
-  document.getElementById("number").innerHTML = Zufall;
+  document.getElementById("number").innerHTML = ZahlVorher;
+  document.getElementById("nextnumber").innerHTML = Zufall;
 }
 
 function hoeher(){
