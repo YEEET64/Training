@@ -5,7 +5,7 @@
   background-color: blue;
 }
 
-.div1 {
+.div {
   flex-direction: row;
   justify-content: center;
 }
